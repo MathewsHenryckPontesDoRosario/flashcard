@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=gluten:wght@100..900&display=swap');
+
+:root{
+    --text-color: #00ff22;
+    --card-front-color: #000000;
+    --card-back-color: #ff0000;
+}
+
+body {
+    background: url(img/bg-dektop-green.webp);
+    font-family: Gluten;
+}
+.cartao__conteudo {
+    background-color: var(--card-front-color);
+    text-align:center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform:translate 300ms ease-in-out;
+}
+#container {
+    display:flex;
+    flex-wrap: wrap;
+}
